@@ -1,1 +1,1 @@
-# csci115
+# csci115 mini project

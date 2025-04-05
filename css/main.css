@@ -44,6 +44,7 @@
     height: auto;
     border: 1px solid var(--accentcolor);
     margin: 15px 10px;
+    min-width: 520px;
 }
 
 .graphnav {

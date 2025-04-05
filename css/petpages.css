@@ -17,7 +17,7 @@ body {
     width: auto;
     text-align: center;
     background-color: white;
-    height: 250px;
+    min-height: 250px;
     margin: 10px;
 }
 
@@ -51,6 +51,7 @@ body {
     padding: 25px 12.5px 25px 12.5px;
     width: calc(100% - 275px);
     text-align: left;
+    min-width: 55px;
 }
 
 .sebastian .post img {
@@ -66,6 +67,7 @@ body {
     padding: 25px 12.5px 25px 12.5px;
     width: calc(100% - 275px);
     text-align: left;
+    min-width: 55px;
 }
 
 .babysnake .post img {
@@ -81,6 +83,7 @@ body {
     padding: 25px 12.5px 25px 12.5px;
     width: calc(100% - 275px);
     text-align: left;
+    min-width: 55px;
 }
 
 .neeko .post img {
@@ -96,4 +99,5 @@ body {
     padding: 25px 12.5px 25px 12.5px;
     width: calc(100% - 275px);
     text-align: left;
+    min-width: 55px;
 }

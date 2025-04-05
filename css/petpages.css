@@ -1,0 +1,99 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --fabrianacolor: rosybrown;
+    --fabrianacolor2: rgb(151, 107, 107);
+    --sebastiancolor: rgb(143, 188, 143);
+    --sebastiancolor2: rgb(114, 151, 107);
+    --babysnakecolor: rgb(143, 150, 188);
+    --babysnakecolor2: rgb(107, 119, 151);
+    --neekocolor: rgb(188, 143, 184);
+    --neekocolor2: rgb(149, 107, 151);
+}
+
+.petpage {
+    width: auto;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    margin: 10px;
+}
+
+.petpage h1 {
+    padding: 15px 0;
+}
+
+.petpage h3 {
+    padding: 0 15px;
+}
+
+.post {
+    width: 85%;
+    text-align: center;
+    background-color: white;
+    height: auto;
+    margin: 10px 7.5%;
+    display: inline-block;
+}
+
+.fabriana .post img {
+    float: left;
+    border: 1px solid var(--fabrianacolor);
+    margin: 25px;
+}
+
+.fabriana .post p {
+    float: right;
+    border: 1px solid var(--fabrianacolor);
+    margin: 25px 25px 25px 0;
+    padding: 25px 12.5px 25px 12.5px;
+    width: calc(100% - 275px);
+    text-align: left;
+}
+
+.sebastian .post img {
+    float: left;
+    border: 1px solid var(--sebastiancolor);
+    margin: 25px;
+}
+
+.sebastian .post p {
+    float: right;
+    border: 1px solid var(--sebastiancolor);
+    margin: 25px 25px 25px 0;
+    padding: 25px 12.5px 25px 12.5px;
+    width: calc(100% - 275px);
+    text-align: left;
+}
+
+.babysnake .post img {
+    float: left;
+    border: 1px solid var(--babysnakecolor);
+    margin: 25px;
+}
+
+.babysnake .post p {
+    float: right;
+    border: 1px solid var(--babysnakecolor);
+    margin: 25px 25px 25px 0;
+    padding: 25px 12.5px 25px 12.5px;
+    width: calc(100% - 275px);
+    text-align: left;
+}
+
+.neeko .post img {
+    float: left;
+    border: 1px solid var(--babysnakecolor);
+    margin: 25px;
+}
+
+.neeko .post p {
+    float: right;
+    border: 1px solid var(--babysnakecolor);
+    margin: 25px 25px 25px 0;
+    padding: 25px 12.5px 25px 12.5px;
+    width: calc(100% - 275px);
+    text-align: left;
+}

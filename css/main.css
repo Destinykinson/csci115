@@ -1,0 +1,224 @@
+:root {
+    --maincolor: #fff;
+    --accentcolor: cornflowerblue;
+}
+
+.navbar {
+    position: sticky;
+    top: 5px;
+    background-color: var(--accentcolor);
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.navitem {
+    display: inline-block;
+    margin: auto 15px;
+    color: var(--maincolor);
+}
+
+.navitem :link {
+    color: var(--maincolor);
+    text-decoration: none;
+}
+
+.navitem :hover {
+    color: var(--maincolor);
+    text-decoration: underline;
+}
+
+.navitem :visited {
+    color: var(--maincolor);
+    text-decoration: none;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.maincontent {
+    background-color: var(--maincolor);
+    width: auto;
+    height: auto;
+    border: 1px solid var(--accentcolor);
+    margin: 15px 10px;
+}
+
+.graphnav {
+    position: fixed;
+    width: 100px;
+    height: 250px;
+    background-color: var(--accentcolor);
+    color: var(--maincolor);
+    padding: 10px;
+}
+
+.pagedesc {
+    margin: 15px calc(50% - (100% - 250px) / 2);
+    background-color: var(--accentcolor);
+    color: var(--maincolor);
+    padding: 15px;
+    display: inline-block;
+    width: calc(100% - 250px);
+}
+
+.inpagedesc {
+    margin: 5px;
+    background-color: var(--maincolor);
+    color: var(--accentcolor);
+    width: calc(100% - 200px);
+    padding: 5px;
+    margin: 0 auto;
+    float: right;
+}
+
+.pet {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+.pagelink {
+    display: inline;
+}
+
+.pet figcaption {
+    text-align: center;
+    font-size: xx-large;
+    color: var(--maincolor);
+}
+
+.pet figure {
+    padding: 20px;
+    background-color: var(--accentcolor);
+}
+
+.pet :link {
+    color: var(--maincolor);
+    text-decoration: none;
+}
+
+.pet :hover {
+    color: var(--maincolor);
+    text-decoration: underline;
+}
+
+.pet :visited {
+    color: var(--maincolor);
+    text-decoration: none;
+}
+
+.pagelink :link {
+    color: var(--maincolor);
+    text-decoration: none;
+}
+
+.pagelink :hover {
+    color: var(--maincolor);
+    text-decoration: underline;
+}
+
+.pagelink :visited {
+    color: var(--maincolor);
+    text-decoration: none;
+}
+
+.pagedesc a {
+    font-size: 50px;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.graph table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 350px;
+    width: 500px;
+    margin: 25px auto;
+}
+
+.graph table td, .graph table th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 0;
+    color: var(--accentcolor);
+}
+
+.graph table th {
+    width: 200px;
+    height: 100px;
+}
+
+.graph table a {
+    color: var(--accentcolor);
+}
+
+.ttextof2 {
+    width: 200px;
+    height: 100px;
+}
+
+.ttextof3 {
+    width: 200px;
+    height: calc(200px / 3);
+}
+
+.ttextof4 {
+    width: 200px;
+    height: 50px;
+}
+
+.timg {
+    width: 300px;
+    height: 300px;
+}
+
+.art figure {
+    display: inline-flex;
+    flex-flow: column wrap;
+    padding: 10px;
+    color: var(--accentcolor);
+    border: 1px solid var(--accentcolor);
+}
+
+body {
+    background-image: url(../img/preview.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    margin: 25px;
+    color: var(--accentcolor);
+    text-align: center;
+}
+
+h3, h2 {
+    margin: 0px 25px;
+    color: var(--accentcolor);
+    text-align: center;
+    font-weight: lighter;
+}
+
+.clear {
+    clear: both;
+}
+
+#graphform {
+    margin: 10px 50px 10px 150px;
+}
+
+#graphform input {
+    float: right;
+    margin: 5px;
+}
+
+#graphform label {
+    float: left;
+    margin: 5px;
+}

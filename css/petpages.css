@@ -88,13 +88,13 @@ body {
 
 .neeko .post img {
     float: left;
-    border: 1px solid var(--babysnakecolor);
+    border: 1px solid var(--neekocolor);
     margin: 25px;
 }
 
 .neeko .post p {
     float: right;
-    border: 1px solid var(--babysnakecolor);
+    border: 1px solid var(--neekocolor);
     margin: 25px 25px 25px 0;
     padding: 25px 12.5px 25px 12.5px;
     width: calc(100% - 275px);

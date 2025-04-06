@@ -67,7 +67,6 @@
 }
 
 .inpagedesc {
-    margin: 5px;
     background-color: var(--maincolor);
     color: var(--accentcolor);
     width: calc(100% - 200px);
